@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novedades en HTML</title>
+</head>
+<body>
+<p>
+    <h1><u>Etiquetas semánticas:</u></h1>
+Nuevo conjunto de etiquetas(header,nav,section,article,aside,footer,main,figure,figcaption,mark,time,data,output,progress y meter).Estas aportan significado al contenido,mejoran la accesibilidad.
+<br>
+<u><b>Multimedia nativa:</u></b>
+ HTML5 incorpora soporte directo para audio y video con las etiquetas (audio y video), eliminando la necesidad de plugins externos como Flash. 
+<br>
+<u><b>Canvas y gráficos vectoriales:</u></b>
+La nueva etiqueta (canvas) permite dibujar contenido 2D dinámico mediante JavaScript. También se integran SVG y soporte 3D como WebGL en algunos contextos. 
+<br>
+<u><b>Mejoras en formularios:</u></b>
+Nuevos tipos de (input como email, url, tel, date, datetime-local, month, week, time, number, range, color, search), con validación incorporada. Además, atributos como (placeholder, required, pattern, min, max, y elementos como datalist) para autocompletar. 
+<br>
+<u><b>API de arrastrar y soltar (Drag & Drop):</u></b>
+Permite crear interfaces interactivas usando arrastrar elementos dentro de una página sin JavaScript externo adicional. 
+<br>
+<u><b>Almacenamiento local y trabajo fuera de línea:</u></b>
+Con localStorage y sessionStorage, las aplicaciones web pueden almacenar datos localmente en el navegador. También se incluyen APIs para trabajar offline, como AppCache y Service Workers, que permiten usar aplicaciones sin conexión. 
+<br>
+<u><b>Web Workers y procesamiento en segundo plano:</u></b>
+Permiten ejecutar scripts en hilos separados sin bloquear la interfaz principal, mejorando rendimiento y experiencia de usuario. 
+<br>
+<u><b>WebSockets y Server-Sent Events:</u></b>
+Tecnologías para comunicación en tiempo real.
+<br>
+<u><b>WebSockets:</u></b>
+conexión bidireccional persistente entre cliente y servidor.
+<br>
+<u><b>Server-Sent Events (SSE):</u></b>
+flujos unidireccionales desde el servidor al cliente. 
+<br>
+<u><b>API de Geolocalización:</u></b>
+Permite obtener la ubicación del usuario, útil para aplicaciones que ofrecen servicios basados en posición geográfica como mapas, recomendaciones o comercio local. 
+<br>
+<u><b>Elementos y atributos globales:</b></u>
+Nuevos atributos variables como data, hidden, async, tabindex, charset en meta, y la eliminación de muchos elementos y atributos obsoletos como (font,center,big,basefont,applet,frame,frameset,strike), entre otros. 
+<br>
+<u><b>Otras APIs integradas:</b></u>
+También se incorporaron APIs como History (para manipular la barra de navegación), registro de controladores MIME, Microdata (para metadatos estructurados), Messaging, y formatos embebidos como SVG y MathML
+<br>
+<u><b>HTML:</u></b>
+Aunque HTML evoluciona más lentamente, hay algunas novedades en discusión y en adopción temprana:
+Declarative Shadow DOM: Ya soportado en algunos navegadores. Permite usar Shadow DOM sin JavaScript.
+Popovers: Nuevo elemento nativo para crear popups tipo tooltips, menús, etc. Mejor soporte cruzado en 2025.
+Web Components mejor integrados: Se promueve el uso de (template y slot) con mejoras en compatibilidad y performance.
+<br>
+<u><b>CSS:</u></b>
+CSS ha avanzado muchísimo. Estas son algunas de las características más destacadas que están siendo ampliamente adoptadas:has() selector (CSS “parent selector”):Permite seleccionar un elemento padre si contiene un hijo específico.
+<br>
+<u><b>Container Queries:</b></u>
+Ya están ampliamente soportadas. Permiten aplicar estilos basados en el tamaño del contenedor, no del viewport.
+<br>
+<u><b>Style queries:</b></u>
+Consulta condicional de estilos aplicados. Aún en desarrollo.
+<br>
+<u><b>CSS Nesting:</b></u>Permite anidar selectores al estilo de Sass.
+<br>
+<u><b>New color spaces:</b></u>
+Compatibilidad creciente con color(display-p3), lab(), oklab() para colores más precisos y vibrantes.
+Scroll-driven animations (@scroll-timeline):Nativas en CSS sin JS. Se pueden crear animaciones sincronizadas con el scroll.
+JavaScript (JS/ECMAScript)La evolución de JavaScript también continúa con propuestas y mejoras clave:
+<br>
+<u><b>Temporal API (fecha y hora mejorada):</b></u>
+Sustituto moderno de Date. Mucho más potente y preciso.
+const now = Temporal.Now.zonedDateTimeISO();Records & Tuples (propuesta avanzada):
+Tipos inmutables similares a estructuras o arrays/objetos puros.Pattern Matching (propuesta Stage 3):
+Permitiría destructurar y evaluar estructuras con más facilidad, estilo switch.Top-level await:Ya ampliamente soportado en módulos ES. Permite usar await sin funciones async.
+<br>
+<u><b>WebAssembly y WebGPU:</b></u>
+Cada vez más integrados al ecosistema JS para rendimiento gráfico y computacional avanzado.
+Decorators (Stage 3 - Estables en algunos frameworks):Permiten modificar clases y propiedades de forma declarativa(Angular, Lit,etc.).
+</p>   
+</body>
+</html>
