@@ -1,90 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contenido Gastronomía y Cultura</title>
+    <title>Gastronomía,Cultura y ocio</title>
     <style>
-        table {
-            width: 80%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .category {
-            font-weight: bold;
-            vertical-align: top;
-            width: 15%;
-        }
-        .subcategory {
-            width: 30%;
-        }
-        .image-cell {
-            width: 55%;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
+        table {width: 80%;border}
+        th, td {border: 1px solid #3f0e0e;padding: 8px;text-align: left;}
+      .descripcion{font-weight: bold;vertical-align: top;width: 15%;}
+        .categoria {width: 30%;}
+        .image-cell {width: 50%;}
+        img {max-width: 50%;height: auto;display: block;}
     </style>
-</head>
-<body>
-
-    <h1>Realice una página que muestre el siguiente contenido. Agregue fotos de similares características.</h1>
-
+    </head>
+    <body>
     <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </thead>
+    <thead>
+           
+</thead>
         <tbody>
             <tr>
-                <td rowspan="5" class="category">Gastronomía</td>
-                <td class="subcategory">Restaurantes</td>
-                <td rowspan="5" class="image-cell"><img src="ruta/a/imagen_gastronomia.jpg" alt="Imagen de gastronomía"></td>
+                <td rowspan="5" class="descripcion">Gastronomía</td>
+                <td class="categoria">Restaurantes</td>
+                <td rowspan="2" class="image-cell"><img src="../ejercicios adicionales en html/imagen1.jpg" alt="Imagen de gastronomía"></td>
             </tr>
             <tr>
-                <td class="subcategory">Sidrerías y asadores</td>
+                <td class="categoria">Sidrerías y asadores</td>
             </tr>
             <tr>
-                <td class="subcategory">Bodegas de vino y txakoli</td>
+                <td class="categoria">Bodegas de vino y txakoli</td>
+                <td rowspan="3" class="image-cell"><img src="../ejercicios adicionales en html/imageN2.jpg" alt="Imagen de bodega"></td>
+               </tr>
+            <tr>
+                <td class="categoria">Productos típicos</td>
             </tr>
             <tr>
-                <td class="subcategory">Productos típicos</td>
+                <td class="categoria">Escuelas de hostelería</td>
             </tr>
             <tr>
-                <td class="subcategory">Escuelas de hostelería</td>
+                <td rowspan="4" class="descripcion">Cultura</td>
+                <td class="categoria">Archivos y bibliotecas</td>
+                <td rowspan="4" class="image-cell"><img src="../ejercicios adicionales en html/imageN3.jpg" alt="Imagen de cultura"></td>
             </tr>
             <tr>
-                <td rowspan="4" class="category">Cultura</td>
-                <td class="subcategory">Archivos y bibliotecas</td>
-                <td rowspan="4" class="image-cell"><img src="ruta/a/imagen_cultura.jpg" alt="Imagen de cultura"></td>
+                <td class="categoria">Museos</td>
             </tr>
             <tr>
-                <td class="subcategory">Museos</td>
+                <td class="categoria">Palacios de congresos</td>
             </tr>
             <tr>
-                <td class="subcategory">Palacios de congresos</td>
+                <td class="categoria">Ferias de muestras</td>
             </tr>
             <tr>
-                <td class="subcategory">Ferias de muestras</td>
-            </tr>
+                <td rowspan="4" class="descripcion">Ocio</td>
+                <td class="categoria">Entrenamiento y Diversion</td>
+                <td rowspan="3" class="image-cell"><img src="../ejercicios adicionales en html/imageN4.jpg" alt="Imagen de ocio"></td>
             <tr>
-                <td class="category">Entretenimiento y diversión</td>
-                <td class="subcategory"></td> <!-- Dejar vacío o añadir subcategorías si existen -->
-                <td class="image-cell"><img src="ruta/a/imagen_entretenimiento.jpg" alt="Imagen de entretenimiento"></td>
+                <td class="categoria">Ocio Cultural</td>
+                </tr>
+             <tr>
+                <td class="categoria">Excursiones y Deportes</td>
             </tr>
         </tbody>
     </table>
